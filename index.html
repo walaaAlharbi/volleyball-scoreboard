@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">Volleyball Scoreboard</h1>
+        <div class="teams">
+            <div class="team1">
+                <h1>TEAM1</h1>
+                <h1 id="result0">0</h1>
+                <button id="addPoint0" onclick="addpoint0()">+1</button>
+            </div>
+            <div class="team2">
+                <h1>TEAM2</h1>
+                <h1 id="result1">0</h1>
+                <button id="addPoint1" onclick="addpoint1()">+1</button>
+            </div>
+        </div>
+        <div class="sets">
+            <span>SETS</span>
+            <p><span id="sets1"></span> : <span id="sets2"></span></p>
+        </div>
+        <div class="buttons" id="buttons">
+            <button id="newsetbutton" onclick="newset()">New Set</button>
+            <button id="newgamebutton" onclick="newgame()">New Game</button>
+        </div>
+
+        <div class="end">
+            <p>Coded By <a href="https://github.com/walaaAlharbi">Walaa Saad</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
